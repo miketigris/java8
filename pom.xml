@@ -32,6 +32,11 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <!-- lombok注解，所有项目都使用,springboot默认支持的，无需申明版本-->
         <dependency>
             <groupId>org.projectlombok</groupId>
