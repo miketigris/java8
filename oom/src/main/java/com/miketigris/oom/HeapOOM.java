@@ -21,12 +21,11 @@ public class HeapOOM implements ApplicationListener<ApplicationReadyEvent> {
 
     @Override
     public void onApplicationEvent(ApplicationReadyEvent applicationReadyEvent) {
-       // log.info("ApplicationStartingEvent start");
-//        List<OOMObject> list = new ArrayList();
-//        while (true) {
-//            //log.info("list size = "+list.size());
-//            list.add(new OOMObject());
-//        }
+        List<OOMObject> list = new ArrayList();
+        while (true) {
+            //log.info("list size = "+list.size());
+            list.add(new OOMObject());
+        }
     }
 
     static class OOMObject {

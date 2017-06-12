@@ -24,7 +24,8 @@ public class JavaVMStackSOF implements ApplicationListener<ApplicationReadyEvent
              try{
                  stackSOF.stackLeak();
              }catch (Throwable e){
-                 log.info("stack length :"+stackSOF.stackLength);
+                 log.info("----------------------stack length :"+stackSOF.stackLength);
+                 throw e;
              }
 
     }
